@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_end_color"
+    tools:context=".bible">
+
+    <Button
+        android:id="@+id/btnenglishbible"
+        android:layout_width="251dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="368dp"
+        android:text="English Bible"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/btntamilbible"
+        android:layout_width="254dp"
+        android:layout_height="104dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="253dp"
+        android:text="Tamil Bible"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+</RelativeLayout>
